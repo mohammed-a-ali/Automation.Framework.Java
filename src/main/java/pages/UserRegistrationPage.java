@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class UserRegistrationPage extends pageBase {
+public class UserRegistrationPage extends PageBase {
 
     public UserRegistrationPage(WebDriver driver) {
         super(driver);
@@ -41,7 +41,7 @@ public class UserRegistrationPage extends pageBase {
     WebElement registerButton;
 
     @FindBy (className = "result")
-    public WebElement successfullMessage;
+    public WebElement successfulMessage;
 
     public void userRegistration(String firstName, String lastName, String email, String password)
     {
