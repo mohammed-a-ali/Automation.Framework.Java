@@ -4,10 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
+import utilites.Helper;
 
 import java.util.concurrent.TimeUnit;
 
@@ -38,5 +37,17 @@ public class TestBase {
     public void stopDriver()
     {
         driver.quit();
+    }
+    
+    //Take a screenshot when testcase fails and add it to the Screenshot folder
+    @AfterMethod
+    public void ScreenshotOnFailure(ITestResult result)
+    {
+        if (result.getStatus() == ITestResult.FAILURE)
+        {
+            System.out.println("Failed");
+            System.out.println("Taking a Screenshot...");
+            Helper.captureScreenShot(driver, result.getName());
+        }
     }
 }
