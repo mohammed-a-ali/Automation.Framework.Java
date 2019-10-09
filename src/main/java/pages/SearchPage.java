@@ -38,9 +38,9 @@ public class SearchPage extends PageBase {
     {
         setTextElemntText(searchTextbox, searchText);
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
-            System.out.println("Error Occured" + e.getMessage());
+            System.out.println("Error Occurred" + e.getMessage());
         }
         productList.get(0).click();
     }

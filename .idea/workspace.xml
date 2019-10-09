@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f81c06-258f-4c00-beb9-00e7a3f3e5a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Screenshots/UserCanSearchForProducts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/UserCanSearchWithAutoSuggest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProductDetailsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SearchProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SearchProductUsingAutoSuggest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regression.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/UserRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/UserRegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/UserCanRegisterSuccessfully.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/UserCanRegisterSuccessfully.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/UserCanSearchWithAutoSuggest.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/UserCanSearchWithAutoSuggest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/UserRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UserRegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,9 +48,12 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\Automation.Framework.Java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\drivers" />
       <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven" />
@@ -72,7 +72,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchProductUsingAutoSuggest.UserCanSearchWithAutoSuggest">
+  <component name="RunManager" selected="TestNG.E:/Automation Framework/Java/TestAutomationFramework.Maven/Automation.Framework.Java/regression.xml">
+    <configuration name="E:/Automation Framework/Java/TestAutomationFramework.Maven/Automation.Framework.Java/regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomationFramework.Maven" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/regression.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="E:/Automation Framework/Java/TestAutomationFramework.Maven/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationFramework.Maven" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -94,24 +104,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.SearchProductTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchProductTest.UserCanSearchForProducts" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomationFramework.Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SearchProductTest" />
-      <option name="METHOD_NAME" value="UserCanSearchForProducts" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -172,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SearchProductUsingAutoSuggest.UserCanSearchWithAutoSuggest" />
-        <item itemvalue="TestNG.SearchProductUsingAutoSuggest" />
-        <item itemvalue="TestNG.SearchProductTest" />
-        <item itemvalue="TestNG.SearchProductTest.UserCanSearchForProducts" />
+        <item itemvalue="TestNG.E:/Automation Framework/Java/TestAutomationFramework.Maven/Automation.Framework.Java/regression.xml" />
         <item itemvalue="TestNG.E:/Automation Framework/Java/TestAutomationFramework.Maven/testng.xml" />
+        <item itemvalue="TestNG.SearchProductUsingAutoSuggest" />
+        <item itemvalue="TestNG.SearchProductUsingAutoSuggest.UserCanSearchWithAutoSuggest" />
+        <item itemvalue="TestNG.SearchProductTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567965199277</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Search using Bread Crumb">
+      <created>1567968595751</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567968595751</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +216,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add take a screenshot on Testcase failure method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add take a screenshot on Testcase failure method" />
+    <MESSAGE value="Add Search using Bread Crumb" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Search using Bread Crumb" />
   </component>
 </project>
