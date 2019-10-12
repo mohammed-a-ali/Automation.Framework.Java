@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.UserRegistrationPage;
 
-public class UserRegistrationTest extends TestBase {
+public class UserRegistrationTestWithDDTAndPropertiesFile extends TestBase {
 
     HomePage homeObject;
     UserRegistrationPage registerObject;
