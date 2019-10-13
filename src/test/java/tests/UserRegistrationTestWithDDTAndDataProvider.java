@@ -26,5 +26,6 @@ public class UserRegistrationTestWithDDTAndDataProvider extends TestBase {
         registerObject = new UserRegistrationPage(driver);
         registerObject.userRegistration(fName, lName, email, password);
         Assert.assertTrue(registerObject.successfulMessage.getText().contains("Your registration completed"));
+        registerObject.logOt();
     }
 }

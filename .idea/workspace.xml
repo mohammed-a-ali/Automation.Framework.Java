@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f81c06-258f-4c00-beb9-00e7a3f3e5a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/UserRegistrationTestWithDDTAndDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/UserRegistrationTestWithDDTAndPropertiesFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/ExcelReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/UserData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/UserData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/UserRegistrationTestWithTDDAndCSV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Screenshots/UserCanRegisterSuccessfully.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/UserCanRegisterSuccessfully.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/regression.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/UserRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UserRegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/UserRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/UserRegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/UserRegistrationTestWithDDTAndDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UserRegistrationTestWithDDTAndDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/UserRegistrationTestWithDDTAndPropertiesFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UserRegistrationTestWithDDTAndExcel.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,62 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.UserRegistrationTestWithDDTAndDataProvider">
-    <configuration name="E:/Automation Framework/Java/TestAutomationFramework.Maven/Automation.Framework.Java/regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomationFramework.Maven" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/regression.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E:/Automation Framework/Java/TestAutomationFramework.Maven/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomationFramework.Maven" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchProductUsingAutoSuggest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomationFramework.Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SearchProductUsingAutoSuggest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchProductUsingAutoSuggest.UserCanSearchWithAutoSuggest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomationFramework.Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SearchProductUsingAutoSuggest" />
-      <option name="METHOD_NAME" value="UserCanSearchWithAutoSuggest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.UserRegistrationTestWithTDDAndCSV.UserCanRegisterSuccessfully">
     <configuration name="UserRegistrationTestWithDDTAndDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationFramework.Maven" />
       <extension name="coverage">
@@ -142,6 +91,76 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.UserRegistrationTestWithDDTAndDataProvider" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTestWithDDTAndExcel (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomationFramework.Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserRegistrationTestWithDDTAndExcel" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTestWithDDTAndExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomationFramework.Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserRegistrationTestWithDDTAndExcel" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTestWithDDTAndExcel.UserCanRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomationFramework.Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserRegistrationTestWithDDTAndExcel" />
+      <option name="METHOD_NAME" value="UserCanRegisterSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTestWithTDDAndCSV.UserCanRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomationFramework.Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserRegistrationTestWithTDDAndCSV" />
+      <option name="METHOD_NAME" value="UserCanRegisterSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -167,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UserRegistrationTestWithTDDAndCSV.UserCanRegisterSuccessfully" />
+        <item itemvalue="TestNG.UserRegistrationTestWithDDTAndExcel.UserCanRegisterSuccessfully" />
+        <item itemvalue="TestNG.UserRegistrationTestWithDDTAndExcel" />
+        <item itemvalue="TestNG.UserRegistrationTestWithDDTAndExcel (1)" />
         <item itemvalue="TestNG.UserRegistrationTestWithDDTAndDataProvider" />
-        <item itemvalue="TestNG.E:/Automation Framework/Java/TestAutomationFramework.Maven/testng.xml" />
-        <item itemvalue="TestNG.E:/Automation Framework/Java/TestAutomationFramework.Maven/Automation.Framework.Java/regression.xml" />
-        <item itemvalue="TestNG.SearchProductUsingAutoSuggest" />
-        <item itemvalue="TestNG.SearchProductUsingAutoSuggest.UserCanSearchWithAutoSuggest" />
       </list>
     </recent_temporary>
   </component>
