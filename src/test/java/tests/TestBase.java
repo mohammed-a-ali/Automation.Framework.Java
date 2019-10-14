@@ -1,5 +1,6 @@
 package tests;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -19,13 +20,16 @@ public class TestBase {
     public void startDriver(@Optional("chrome") String browserName)
     {
         if (browserName.equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
+            WebDriverManager.chromedriver().setup();
+            //System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
             driver = new ChromeDriver();
         }else if (browserName.equalsIgnoreCase("FireFox")){
-            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver.exe");
+            WebDriverManager.firefoxdriver().setup();
+            //System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver.exe");
             driver = new FirefoxDriver();
         }else if(browserName.equalsIgnoreCase("IE")){
-            System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "/drivers/IEDriverServer.exe");
+            WebDriverManager.iedriver().setup();
+            //System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "/drivers/IEDriverServer.exe");
             driver = new InternetExplorerDriver();
         }
         driver.manage().window().maximize();

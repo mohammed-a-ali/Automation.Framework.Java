@@ -1,5 +1,6 @@
 package steps;
 
+import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -15,6 +16,11 @@ public class UserRegistration extends Hooks {
 
     HomePage homeObject ;
     UserRegistrationPage registerObject;
+    Faker fakeData = new Faker();
+    String firstName = fakeData.name().firstName();
+    String lastName = fakeData.name().lastName();
+    String email = fakeData.internet().emailAddress();
+    String password = fakeData.number().digits(8).toString();
 
     @Given("the user in the home page")
     public void the_user_in_the_home_page() {
@@ -30,7 +36,7 @@ public class UserRegistration extends Hooks {
     @And("I entered the user data")
     public void i_entered_the_user_data() {
         registerObject = new UserRegistrationPage(driver);
-        registerObject.userRegistration("Mohamed", "Ali", "maali4@gmail.com", "123456789");
+        registerObject.userRegistration(firstName, lastName, email, password);
     }
 
     @Then("The registration page displays successfully")

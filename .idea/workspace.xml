@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f81c06-258f-4c00-beb9-00e7a3f3e5a9" name="Default Changelist" comment="Add Search using Bread Crumb">
-      <change afterPath="$PROJECT_DIR$/ target/cucumber-html-report/formatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ target/cucumber-html-report/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ target/cucumber-html-report/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ target/cucumber-html-report/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ target/cucumber-html-report/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/runScenario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Browser/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/UserRegisteration.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/UserRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/UserRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
