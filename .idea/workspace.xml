@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47f81c06-258f-4c00-beb9-00e7a3f3e5a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/UserRegistrationTestWithJavaFaker.java" afterDir="false" />
+    <list default="true" id="47f81c06-258f-4c00-beb9-00e7a3f3e5a9" name="Default Changelist" comment="Add Search using Bread Crumb">
+      <change afterPath="$PROJECT_DIR$/ target/cucumber-html-report/formatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ target/cucumber-html-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ target/cucumber-html-report/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ target/cucumber-html-report/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ target/cucumber-html-report/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/runScenario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Browser/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/UserRegisteration.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/UserRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/UserRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UserRegistrationTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,23 +51,23 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/steps" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\Automation.Framework.Java\src\test" />
+      <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\Automation.Framework.Java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\Automation.Framework.Java\src\main\java" />
       <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\drivers" />
       <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven" />
       <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\src\test\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="tests" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\Automation.Framework.Java\src\test" />
-      <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\Automation.Framework.Java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -73,17 +82,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.UserRegistrationTestWithJavaFaker.UserCanRegisterSuccessfully">
-    <configuration name="UserRegistrationTestWithDDTAndExcel (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestRunner">
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationFramework.Maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserRegistrationTestWithDDTAndExcel" />
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.TestRunner" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -181,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="TestNG.UserRegistrationTestWithJavaFaker.UserCanRegisterSuccessfully" />
         <item itemvalue="TestNG.UserRegistrationTestWithTDDAndCSV.UserCanRegisterSuccessfully" />
         <item itemvalue="TestNG.UserRegistrationTestWithDDTAndExcel.UserCanRegisterSuccessfully" />
         <item itemvalue="TestNG.UserRegistrationTestWithDDTAndExcel" />
-        <item itemvalue="TestNG.UserRegistrationTestWithDDTAndExcel (1)" />
       </list>
     </recent_temporary>
   </component>
