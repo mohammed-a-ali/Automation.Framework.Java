@@ -87,7 +87,7 @@ formatter.examples({
       "cells": [
         "Mohamed",
         "Ali",
-        "malii3@gmail.com",
+        "malii5@gmail.com",
         "123456789"
       ]
     },
@@ -95,7 +95,7 @@ formatter.examples({
       "cells": [
         "Ahmed",
         "Khaled",
-        "akt3@gmail.com",
+        "akt5@gmail.com",
         "123456789"
       ]
     }
@@ -127,7 +127,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I entered \"Mohamed\", \"Ali\", \"malii3@gmail.com\", \"123456789\"",
+  "name": "I entered \"Mohamed\", \"Ali\", \"malii5@gmail.com\", \"123456789\"",
   "keyword": "And "
 });
 formatter.match({
@@ -172,7 +172,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I entered \"Ahmed\", \"Khaled\", \"akt3@gmail.com\", \"123456789\"",
+  "name": "I entered \"Ahmed\", \"Khaled\", \"akt5@gmail.com\", \"123456789\"",
   "keyword": "And "
 });
 formatter.match({

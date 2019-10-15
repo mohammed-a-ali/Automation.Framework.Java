@@ -5,14 +5,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.testng.ITestResult;
 import org.testng.annotations.*;
-import utilites.Helper;
+import utilites.LoadProperties;
 
 import java.util.concurrent.TimeUnit;
 
 public class Driver {
     public static WebDriver driver;
+    static String url = LoadProperties.environment.getProperty("URL");
 
     @Parameters("browser")
     public static void startDriver(String browserName)
@@ -32,7 +32,7 @@ public class Driver {
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(120, TimeUnit.MILLISECONDS);
-        driver.navigate().to("https://demo.nopcommerce.com/");
+        driver.navigate().to(url);
     }
 
     public static void stopDriver()

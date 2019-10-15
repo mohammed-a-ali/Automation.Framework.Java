@@ -14,6 +14,6 @@ Feature: User Registration
     Then The registration page displays successfully
     Examples:
       | firstName | lastName | email            | password |
-      | Mohamed   | Ali      | malii3@gmail.com | 123456789 |
-      | Ahmed     | Khaled   | akt3@gmail.com   | 123456789 |
+      | Mohamed   | Ali      | malii5@gmail.com | 123456789 |
+      | Ahmed     | Khaled   | akt5@gmail.com   | 123456789 |
 

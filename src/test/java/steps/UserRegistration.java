@@ -42,6 +42,7 @@ public class UserRegistration extends Hooks {
     @Then("The registration page displays successfully")
     public void the_registration_page_displays_successfully() {
         Assert.assertTrue(registerObject.successfulMessage.getText().contains("Your registration completed"));
+        System.out.println("FirstName : "+ firstName + " LastName : " + lastName + " Email : " + email + " Password : " + password);
         registerObject.logOt();
     }
 
