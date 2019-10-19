@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f81c06-258f-4c00-beb9-00e7a3f3e5a9" name="Default Changelist" comment="Add Search using Bread Crumb">
-      <change afterPath="$PROJECT_DIR$/src/main/java/properties/Environment.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilites/LoadProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ target/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/ target/cucumber-html-report/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Browser/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Browser/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/UserRegisteration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/UserRegisteration.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/UserRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/runScenario.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/runScenario.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/UserRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/UserRegistrationPage.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,18 +49,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\Automation.Framework.Java\src\test" />
-      <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\Automation.Framework.Java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="tests" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\Automation.Framework.Java\src\main\java" />
       <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\drivers" />
       <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven" />
       <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\Automation.Framework.Java\src\test" />
+      <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\Automation.Framework.Java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -76,7 +75,61 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestRunner">
+  <component name="RunManager" selected="Cucumber java.Scenario: User Registration">
+    <configuration name="Feature: UserRegisteration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/UserRegisteration.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="TestAutomationFramework.Maven" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: UserRegisteration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User Registration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/UserRegisteration.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="TestAutomationFramework.Maven" />
+      <option name="NAME_FILTER" value="^User Registration$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^User Registration$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User Registration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hooks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomationFramework.Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.Hooks" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationFramework.Maven" />
       <extension name="coverage">
@@ -94,41 +147,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTestWithDDTAndExcel" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomationFramework.Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserRegistrationTestWithDDTAndExcel" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRegistrationTestWithDDTAndExcel.UserCanRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomationFramework.Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserRegistrationTestWithDDTAndExcel" />
-      <option name="METHOD_NAME" value="UserCanRegisterSuccessfully" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserRegistrationTestWithJavaFaker.UserCanRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationFramework.Maven" />
       <extension name="coverage">
@@ -139,24 +157,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.UserRegistrationTestWithJavaFaker" />
-      <option name="METHOD_NAME" value="UserCanRegisterSuccessfully" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRegistrationTestWithTDDAndCSV.UserCanRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomationFramework.Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserRegistrationTestWithTDDAndCSV" />
       <option name="METHOD_NAME" value="UserCanRegisterSuccessfully" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -184,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: User Registration" />
+        <item itemvalue="Cucumber java.Feature: UserRegisteration" />
+        <item itemvalue="TestNG.Hooks" />
         <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="TestNG.UserRegistrationTestWithJavaFaker.UserCanRegisterSuccessfully" />
-        <item itemvalue="TestNG.UserRegistrationTestWithTDDAndCSV.UserCanRegisterSuccessfully" />
-        <item itemvalue="TestNG.UserRegistrationTestWithDDTAndExcel.UserCanRegisterSuccessfully" />
-        <item itemvalue="TestNG.UserRegistrationTestWithDDTAndExcel" />
       </list>
     </recent_temporary>
   </component>
@@ -238,5 +238,19 @@
     <MESSAGE value="Add take a screenshot on Testcase failure method" />
     <MESSAGE value="Add Search using Bread Crumb" />
     <option name="LAST_COMMIT_MESSAGE" value="Add Search using Bread Crumb" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/pages/HomePage.java</url>
+          <line>15</line>
+          <properties class="pages.HomePage" method="openRegistrationPage">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

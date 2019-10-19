@@ -49,11 +49,11 @@ public class UserRegistrationPage extends PageBase {
     public void userRegistration(String firstName, String lastName, String email, String password)
     {
         clickButton(genderRadio);
-        setTextElemntText(fNameTextbox, firstName);
-        setTextElemntText(lNameTextbox, lastName);
-        setTextElemntText(emailTextbox, email);
-        setTextElemntText(passwordTextbox, password);
-        setTextElemntText(confirmPassword, password);
+        setTextElementText(fNameTextbox, firstName);
+        setTextElementText(lNameTextbox, lastName);
+        setTextElementText(emailTextbox, email);
+        setTextElementText(passwordTextbox, password);
+        setTextElementText(confirmPassword, password);
         clickButton(registerButton);
     }
 

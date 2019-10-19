@@ -25,7 +25,7 @@ public class SearchPage extends PageBase {
 
     public void productSearch(String productName)
     {
-        setTextElemntText(searchTextbox, productName);
+        setTextElementText(searchTextbox, productName);
         clickButton(searchButton);
     }
 
@@ -36,7 +36,7 @@ public class SearchPage extends PageBase {
 
     public void productSearchUsingAutoSuggest(String searchText)
     {
-        setTextElemntText(searchTextbox, searchText);
+        setTextElementText(searchTextbox, searchText);
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {

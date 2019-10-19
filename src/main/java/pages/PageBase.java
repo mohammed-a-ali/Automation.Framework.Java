@@ -21,8 +21,8 @@ public class PageBase {
     }
 
     //Set text in a textbox
-    protected static void setTextElemntText(WebElement textElemnt, String value)
+    protected static void setTextElementText(WebElement textElement, String value)
     {
-        textElemnt.sendKeys(value);
+        textElement.sendKeys(value);
     }
 }
