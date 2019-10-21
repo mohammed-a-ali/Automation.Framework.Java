@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f81c06-258f-4c00-beb9-00e7a3f3e5a9" name="Default Changelist" comment="Add Search using Bread Crumb">
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/JsonDataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/UserData.JSON" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/UserRegistrationTestWithDDTAndJSON.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ target/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/ target/cucumber-html-report/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/runScenario.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/runScenario.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/UserRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/UserRegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,23 +44,24 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/steps" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\Automation.Framework.Java\src\test" />
+      <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\Automation.Framework.Java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\Automation.Framework.Java\src\main\java" />
       <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\drivers" />
       <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven" />
       <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\src\test\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="tests" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\Automation.Framework.Java\src\test" />
-      <recent name="E:\Automation Framework\Java\TestAutomationFramework.Maven\Automation.Framework.Java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -75,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: User Registration">
+  <component name="RunManager" selected="TestNG.UserRegistrationTestWithDDTAndJSON">
     <configuration name="Feature: UserRegisteration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/UserRegisteration.feature" />
@@ -147,7 +148,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTestWithJavaFaker.UserCanRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRegistrationTestWithDDTAndJSON" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationFramework.Maven" />
       <extension name="coverage">
         <pattern>
@@ -156,9 +157,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserRegistrationTestWithJavaFaker" />
-      <option name="METHOD_NAME" value="UserCanRegisterSuccessfully" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserRegistrationTestWithDDTAndJSON" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -184,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UserRegistrationTestWithDDTAndJSON" />
         <item itemvalue="Cucumber java.Scenario: User Registration" />
         <item itemvalue="Cucumber java.Feature: UserRegisteration" />
-        <item itemvalue="TestNG.Hooks" />
         <item itemvalue="TestNG.TestRunner" />
-        <item itemvalue="TestNG.UserRegistrationTestWithJavaFaker.UserCanRegisterSuccessfully" />
+        <item itemvalue="TestNG.Hooks" />
       </list>
     </recent_temporary>
   </component>
@@ -243,12 +243,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/pages/HomePage.java</url>
-          <line>15</line>
-          <properties class="pages.HomePage" method="openRegistrationPage">
+          <url>file://$PROJECT_DIR$/src/test/java/Browser/Driver.java</url>
+          <line>17</line>
+          <properties class="Browser.Driver" method="startDriver">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
